@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnSend: Button = findViewById(R.id.btnLogin)
+        val btnRegister: Button = findViewById(R.id.btnregister)
         val e1: EditText =findViewById(R.id.etdocument)
         val p2: EditText =findViewById(R.id.etPassword)
 
@@ -38,13 +39,25 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        btnRegister.setOnClickListener{
+            this.SendRegister()
+        }
+
+
     }
+
 
     private  fun SendLogin(e1: String, p2: String){
         val intent = Intent(this, MenuActivity::class.java)
         intent.putExtra("e1",e1)
         intent.putExtra("p2",p2)
         startActivity(intent)
+    }
+
+    private fun SendRegister(){
+        val intent = Intent(this, registro_cliente::class.java )
+        startActivity(intent)
+
     }
 
 }

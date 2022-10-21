@@ -7,4 +7,5 @@
     <string name="ValueDocument">Documento de Identidad</string>
     <string name="ValuePassword">Contraseña</string>
     <string name="ValueLogin">Login</string>
+    <string name="ValueRegister">Registrarse</string>
 </resources>
