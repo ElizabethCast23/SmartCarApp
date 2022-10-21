@@ -36,22 +36,15 @@ class MainActivity : AppCompatActivity() {
                 this.SendLogin(e1.text.toString(),p2.text.toString())
 //                Toast.makeText(applicationContext,"Invalid email or password",Toast.LENGTH_LONG).show()
             }
-
-
-
         }
 
     }
-
-//    email : admin@mgapp.com
-//    password: admin2022@
 
     private  fun SendLogin(e1: String, p2: String){
         val intent = Intent(this, MenuActivity::class.java)
         intent.putExtra("e1",e1)
         intent.putExtra("p2",p2)
         startActivity(intent)
-
     }
 
 }
