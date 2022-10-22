@@ -3,6 +3,7 @@
     <string name="title_activity_menu">MenuActivity</string>
     <string name="title_home">Inicio</string>
     <string name="title_travel">Viajes</string>
+    <string name="title_book">Reservas</string>
     <string name="title_profile">Perfil</string>
     <string name="ValueDocument">Documento de Identidad</string>
     <string name="ValuePassword">Contraseña</string>

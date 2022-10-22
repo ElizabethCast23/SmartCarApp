@@ -7,17 +7,22 @@
 
     <fragment
         android:id="@+id/NavUserProfile"
-        android:name="dev.example.smartcarapp.fragment.UserProfile"
+        android:name="dev.example.smartcarapp.fragmentUser.UserProfile"
         android:label="Perfil"
         tools:layout="@layout/fragment_user_profile" />
     <fragment
         android:id="@+id/NavDashboard"
-        android:name="dev.example.smartcarapp.fragment.dashboard"
+        android:name="dev.example.smartcarapp.fragmentUser.dashboard"
         android:label="Inicio"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
-        android:id="@+id/NavViajes"
-        android:name="dev.example.smartcarapp.fragment.Viajes"
+        android:id="@+id/NavTravel"
+        android:name="dev.example.smartcarapp.fragmentUser.Viajes"
         android:label="Viajes"
         tools:layout="@layout/fragment_viajes" />
+    <fragment
+        android:id="@+id/NavBookUser"
+        android:name="dev.example.smartcarapp.fragmentUser.BookUser"
+        android:label="Reservación"
+        tools:layout="@layout/fragment_book_user" />
 </navigation>

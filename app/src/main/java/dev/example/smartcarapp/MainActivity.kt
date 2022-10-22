@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         btnSend.setOnClickListener {
             val correo = "1"
-//            val correo = "admin@mgapp.com"
-//            val pass = "admin2022@"
             val pass = "2"
 
             if(e1.text.toString().length== 0){
@@ -46,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private  fun SendLogin(e1: String, p2: String){
-        val intent = Intent(this, MenuActivity::class.java)
+        val intent = Intent(this, MenuActivityUser::class.java)
         intent.putExtra("e1",e1)
         intent.putExtra("p2",p2)
         startActivity(intent)
