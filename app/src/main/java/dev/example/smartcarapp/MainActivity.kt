@@ -21,9 +21,11 @@ class MainActivity : AppCompatActivity() {
 
         val adapt = ArrayAdapter(this,android.R.layout.simple_spinner_item,list)
         spnType.adapter = adapt
+
 //        spnType.setOnItemClickListener {
 //            parent, view, position, id ->
 //            Toast.makeText( applicationContext, "$position", Toast.LENGTH_LONG).show()
+//
 //        }
 
 

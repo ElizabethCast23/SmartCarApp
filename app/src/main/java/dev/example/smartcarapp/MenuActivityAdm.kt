@@ -20,8 +20,8 @@ class MenuActivityAdm : AppCompatActivity() {
         binding = ActivityMenuAdmBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportFragmentManager.beginTransaction().replace(R.id.nav_host_fragment_activity_menu_adm,
-            DashboardAdm()).commit()
+//        supportFragmentManager.beginTransaction().replace(R.id.nav_host_fragment_activity_menu_adm,
+//            DashboardAdm()).commit()
 
         val navView: BottomNavigationView = binding.navView
 
