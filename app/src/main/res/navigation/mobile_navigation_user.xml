@@ -9,20 +9,20 @@
         android:id="@+id/NavUserProfile"
         android:name="dev.example.smartcarapp.fragmentUser.UserProfile"
         android:label="Perfil"
-        tools:layout="@layout/fragment_user_profile" />
+        tools:layout="@layout/fragment_profile_user" />
     <fragment
         android:id="@+id/NavDashboard"
         android:name="dev.example.smartcarapp.fragmentUser.dashboard"
         android:label="Inicio"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard_user" />
     <fragment
         android:id="@+id/NavTravel"
         android:name="dev.example.smartcarapp.fragmentUser.Viajes"
         android:label="Viajes"
-        tools:layout="@layout/fragment_viajes" />
+        tools:layout="@layout/fragment_travel" />
     <fragment
         android:id="@+id/NavBookUser"
         android:name="dev.example.smartcarapp.fragmentUser.BookUser"
         android:label="Reservación"
-        tools:layout="@layout/fragment_book_user" />
+        tools:layout="@layout/fragment_book" />
 </navigation>
