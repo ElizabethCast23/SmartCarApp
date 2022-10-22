@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
 //    FALTA
     private  fun SendLoginAdm(e1: String, p2: String){
-//        val intent = Intent(this, MenuActivityAdm::class.java)
+        val intent = Intent(this, MenuActivityAdm::class.java)
         intent.putExtra("e1",e1)
         intent.putExtra("p2",p2)
         startActivity(intent)

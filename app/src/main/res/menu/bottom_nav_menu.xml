@@ -2,26 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/NavDashboard"
+        android:id="@+id/NavDashboardAdm"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:title="@string/title_home_adm" />
 
-<!--    Camibar icono-->
     <item
-        android:id="@+id/NavTravel"
+        android:id="@+id/NavAdmTravel"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_travel" />
+        android:title="@string/title_travel_adm" />
 
     <item
-        android:id="@+id/NavBookUser"
+        android:id="@+id/NavBookAdm"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_book" />
+        android:title="@string/title_book_adm" />
 
-
-    <!--    Camibar icono-->
     <item
-        android:id="@+id/NavUserProfile"
+        android:id="@+id/NavAdmProfile"
         android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_profile" />
+        android:title="@string/title_profile_adm" />
 
 </menu>

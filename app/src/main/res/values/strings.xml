@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">SmartCarApp</string>
-    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_menu">MenuActivityUser</string>
     <string name="title_home">Inicio</string>
     <string name="title_travel">Viajes</string>
     <string name="title_book">Reservas</string>
@@ -32,7 +32,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    
-
+    <string name="title_activity_menu_adm">MenuActivityAdm</string>
+    <string name="title_home_adm">Inicio</string>
+    <string name="title_travel_adm">Viajes</string>
+    <string name="title_book_adm">Reserva</string>
+    <string name="title_profile_adm">Perfil</string>
 
 </resources>
