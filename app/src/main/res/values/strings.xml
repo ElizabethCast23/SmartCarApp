@@ -23,6 +23,11 @@
     <string name="ValueCerrarDashboarUser">Cerrar Sesión</string>
     <string name="ValueBuscarPaquete">Buscar Paquete</string>
 
+    <string name="ValueRegisterAdm">Registro</string>
+    <string name="ValueReportAdm">Reporte</string>
+    <string name="ValueEditAdm">Editar</string>
+    <string name="ValueSignOffAdm">Cerrar Sesión</string>
+
     <string-array name="TypeUser">
         <item>Pasajero</item>
         <item>Administrador</item>
