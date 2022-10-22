@@ -19,6 +19,9 @@
     <string name="ValueGenderUser">Genero</string>
     <string name="ValueDateBirthUser">Fecha de nacimiento</string>
     <string name="ValuePasswordUser">Fecha de nacimiento</string>
+    <string name="ValueEditarDashboardUser">Editar</string>
+    <string name="ValueCerrarDashboarUser">Cerrar Sesión</string>
+    <string name="ValueBuscarPaquete">Buscar Paquete</string>
 
     <string-array name="TypeUser">
         <item>Pasajero</item>
