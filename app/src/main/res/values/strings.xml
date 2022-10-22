@@ -58,5 +58,6 @@
     <string name="title_book_adm">Reserva</string>
     <string name="title_profile_adm">Perfil</string>
     <string name="ValueRetorn">Retorn</string>
+    <string name="ValueCreate">Crear</string>
 
 </resources>
