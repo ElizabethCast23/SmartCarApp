@@ -8,11 +8,17 @@
 
 <!--    Camibar icono-->
     <item
-        android:id="@+id/NavViajes"
+        android:id="@+id/NavTravel"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_travel" />
 
-<!--    Camibar icono-->
+    <item
+        android:id="@+id/NavBookUser"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_book" />
+
+
+    <!--    Camibar icono-->
     <item
         android:id="@+id/NavUserProfile"
         android:icon="@drawable/ic_notifications_black_24dp"

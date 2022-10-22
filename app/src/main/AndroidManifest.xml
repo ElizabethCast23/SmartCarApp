@@ -17,7 +17,7 @@
             android:name=".registro_cliente"
             android:exported="false" />
         <activity
-            android:name=".MenuActivity"
+            android:name=".MenuActivityUser"
             android:exported="false"
             android:label="@string/title_activity_menu" />
         <activity
