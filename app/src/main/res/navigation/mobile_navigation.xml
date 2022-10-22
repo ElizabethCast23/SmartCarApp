@@ -24,4 +24,9 @@
         android:name="dev.example.smartcarapp.fragmentAdm.AdmTravel"
         android:label="Viajes"
         tools:layout="@layout/fragment_adm_travel" />
+    <fragment
+        android:id="@+id/NavadmRegisterList"
+        android:name="dev.example.smartcarapp.fragmentAdm.AdmRegisterList"
+        android:label="fragment_adm_register_list"
+        tools:layout="@layout/fragment_adm_register_list" />
 </navigation>

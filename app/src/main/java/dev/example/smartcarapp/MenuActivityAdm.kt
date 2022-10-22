@@ -8,6 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import dev.example.smartcarapp.databinding.ActivityMenuAdmBinding
+import dev.example.smartcarapp.fragmentAdm.DashboardAdm
 
 class MenuActivityAdm : AppCompatActivity() {
 
@@ -18,6 +19,9 @@ class MenuActivityAdm : AppCompatActivity() {
 
         binding = ActivityMenuAdmBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportFragmentManager.beginTransaction().replace(R.id.nav_host_fragment_activity_menu_adm,
+            DashboardAdm()).commit()
 
         val navView: BottomNavigationView = binding.navView
 
