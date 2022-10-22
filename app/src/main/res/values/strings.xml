@@ -1,12 +1,26 @@
 <resources>
     <string name="app_name">SmartCarApp</string>
     <string name="title_activity_menu">MenuActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_travel">Viajes</string>
+    <string name="title_profile">Perfil</string>
     <string name="ValueDocument">Documento de Identidad</string>
     <string name="ValuePassword">Contraseña</string>
     <string name="ValueLogin">Iniciar sesión</string>
     <string name="ValueRegister">Crear Cuenta</string>
     <string name="ValueRegisterUsuario">Registrar</string>
+    <string name="ValueNameUser">Nombre</string>
+    <string name="ValueSurnameUser">Apellidos</string>
+    <string name="ValueDocumnetUser">DNI</string>
+    <string name="ValuePhoneUser">Telefono</string>
+    <string name="ValueDirectionUser">Direccion</string>
+    <string name="ValueEmailUser">Correo</string>
+    <string name="ValueGenderUser">Genero</string>
+    <string name="ValueDateBirthUser">Fecha de nacimiento</string>
+    <string name="ValuePasswordUser">Fecha de nacimiento</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+
+
 </resources>
