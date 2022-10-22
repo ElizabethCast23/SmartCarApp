@@ -26,6 +26,9 @@ class DashboardAdm : Fragment() {
             val transaction = fragmentManager?.beginTransaction()
             transaction?.replace(R.id.nav_host_fragment_activity_menu_adm,fragment)?.commit()
         }
+
+
+
         return view
 
 

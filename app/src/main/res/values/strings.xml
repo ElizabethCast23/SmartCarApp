@@ -37,7 +37,8 @@
     <string name="ValueEmailAdm">Correo</string>
     <string name="ValueGenderAdm">Genero</string>
     <string name="ValueDateBirthAdm">Fecha de nacimiento</string>
-
+    <string name="ValueCerrarDashboarAdm">Cerrar Sesión</string>
+    <string name="ValueEditarDashboardAdm">Editar</string>
 
     <string-array name="TypeUser">
         <item>Pasajero</item>
