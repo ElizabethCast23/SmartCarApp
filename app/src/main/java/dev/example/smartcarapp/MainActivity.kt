@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         btnSend.setOnClickListener {
             val correo = "1"
-//            val correo = "admin@mgapp.com"
-//            val pass = "admin2022@"
             val pass = "2"
 
             if(e1.text.toString().length== 0){
