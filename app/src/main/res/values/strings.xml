@@ -28,6 +28,17 @@
     <string name="ValueEditAdm">Editar</string>
     <string name="ValueSignOffAdm">Cerrar Sesión</string>
 
+    <string name="ValueTypeTwo">Administrador</string>
+    <string name="ValueNameAdm">Nombre</string>
+    <string name="ValueSurnameAdm">Apellidos</string>
+    <string name="ValueDocumnetAdm">DNI</string>
+    <string name="ValuePhoneAdm">Telefono</string>
+    <string name="ValueDirectionAdm">Direccion</string>
+    <string name="ValueEmailAdm">Correo</string>
+    <string name="ValueGenderAdm">Genero</string>
+    <string name="ValueDateBirthAdm">Fecha de nacimiento</string>
+
+
     <string-array name="TypeUser">
         <item>Pasajero</item>
         <item>Administrador</item>
@@ -45,5 +56,6 @@
     <string name="title_travel_adm">Viajes</string>
     <string name="title_book_adm">Reserva</string>
     <string name="title_profile_adm">Perfil</string>
+    <string name="ValueRetorn">Retorn</string>
 
 </resources>
