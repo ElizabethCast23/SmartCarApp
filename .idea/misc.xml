@@ -3,17 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/activity_menu.xml" value="0.10400000000000001" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/activity_menu_adm.xml" value="0.1" />
+        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/activity_menu_user.xml" value="0.176" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/activity_registro_cliente.xml" value="0.152" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_adm_book.xml" value="0.13645833333333332" />
-        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_adm_dashboard.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_adm_dashboard.xml" value="0.2" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_adm_profile.xml" value="0.13645833333333332" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_adm_travel.xml" value="0.12239583333333333" />
-        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_book_user.xml" value="0.11676798378926039" />
+        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_book_user.xml" value="0.176" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
-        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_dashboard_user.xml" value="0.1" />
+        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_dashboard_user.xml" value="0.2" />
+        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_profile_user.xml" value="0.11246200607902736" />
+        <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_travel_user.xml" value="0.1" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_user_profile.xml" value="0.1140625" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/layout/fragment_viajes.xml" value="0.10733695652173914" />
         <entry key="..\:/Users/Elizabeth/AndroidStudioProjects/Moviles Proyecto/SmartCarApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.176" />
