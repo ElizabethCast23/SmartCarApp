@@ -63,7 +63,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-//    FALTA
     private  fun SendLoginAdm(e1: String, p2: String){
         val intent = Intent(this, MenuActivityAdm::class.java)
         intent.putExtra("e1",e1)
@@ -76,8 +75,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
 
     }
-
-    //addcaonsodmao
 
 }
 
