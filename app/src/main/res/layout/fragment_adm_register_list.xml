@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayoutRegisterAdm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentAdm.AdmRegisterList">
+
+    <Button
+        android:id="@+id/btnRegPackage"
+        android:layout_width="285dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:text="Paquete de Viaje"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegBus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnRegBus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:text="Bus"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegRoute"
+        app:layout_constraintEnd_toEndOf="@+id/btnRegRoute"
+        app:layout_constraintStart_toStartOf="@+id/btnRegRoute"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegPackage" />
+
+    <Button
+        android:id="@+id/btnRegRoute"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ruta"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegBus" />
+
+    <Button
+        android:id="@+id/btnRegUsuario"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="44dp"
+        android:text="Pasajero"
+        app:layout_constraintBottom_toTopOf="@+id/btnRetornRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegRoute" />
+
+    <Button
+        android:id="@+id/btnRetornRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:text="@string/ValueRetorn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegUsuario" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="32dp"
+        android:text="Registrar"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegPackage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/NavDashboardAdm">
+    <fragment
+        android:id="@+id/NavBookAdm"
+        android:name="dev.example.smartcarapp.fragmentAdm.AdmBook"
+        android:label="Reservación"
+        tools:layout="@layout/fragment_adm_book" />
+    <fragment
+        android:id="@+id/NavDashboardAdm"
+        android:name="dev.example.smartcarapp.fragmentAdm.DashboardAdm"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_adm_dashboard" />
+    <fragment
+        android:id="@+id/NavAdmProfile"
+        android:name="dev.example.smartcarapp.fragmentAdm.AdmProfile"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_adm_profile" />
+    <fragment
+        android:id="@+id/NavAdmTravel"
+        android:name="dev.example.smartcarapp.fragmentAdm.AdmTravel"
+        android:label="Viajes"
+        tools:layout="@layout/fragment_adm_travel" />
+    <fragment
+        android:id="@+id/NavadmRegisterList"
+        android:name="dev.example.smartcarapp.fragmentAdm.AdmRegisterList"
+        android:label="fragment_adm_register_list"
+        tools:layout="@layout/fragment_adm_register_list" />
+</navigation>

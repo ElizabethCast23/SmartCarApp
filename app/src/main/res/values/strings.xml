@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">SmartCarApp</string>
+    <string name="title_activity_menu">MenuActivityUser</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_travel">Viajes</string>
+    <string name="title_book">Reservas</string>
+    <string name="title_profile">Perfil</string>
+    <string name="ValueDocument">Documento de Identidad</string>
+    <string name="ValuePassword">Contraseña</string>
+    <string name="ValueLogin">Iniciar sesión</string>
+    <string name="ValueRegister">Crear Cuenta</string>
+    <string name="ValueRegisterUsuario">Registrar</string>
+    <string name="ValueNameUser">Nombre</string>
+    <string name="ValueSurnameUser">Apellidos</string>
+    <string name="ValueDocumnetUser">DNI</string>
+    <string name="ValuePhoneUser">Telefono</string>
+    <string name="ValueDirectionUser">Direccion</string>
+    <string name="ValueEmailUser">Correo</string>
+    <string name="ValueGenderUser">Genero</string>
+    <string name="ValueDateBirthUser">Fecha de nacimiento</string>
+    <string name="ValuePasswordUser">Fecha de nacimiento</string>
+    <string name="ValueEditarDashboardUser">Editar</string>
+    <string name="ValueCerrarDashboarUser">Cerrar Sesión</string>
+    <string name="ValueBuscarPaquete">Buscar Paquete</string>
+
+    <string name="ValueRegisterAdm">Registro</string>
+    <string name="ValueReportAdm">Reporte</string>
+    <string name="ValueEditAdm">Editar</string>
+    <string name="ValueSignOffAdm">Cerrar Sesión</string>
+
+    <string name="ValueTypeTwo">Administrador</string>
+    <string name="ValueNameAdm">Nombre</string>
+    <string name="ValueSurnameAdm">Apellidos</string>
+    <string name="ValueDocumnetAdm">DNI</string>
+    <string name="ValuePhoneAdm">Telefono</string>
+    <string name="ValueDirectionAdm">Direccion</string>
+    <string name="ValueEmailAdm">Correo</string>
+    <string name="ValueGenderAdm">Genero</string>
+    <string name="ValueDateBirthAdm">Fecha de nacimiento</string>
+    <string name="ValueCerrarDashboarAdm">Cerrar Sesión</string>
+    <string name="ValueEditarDashboardAdm">Editar</string>
+
+    <string-array name="TypeUser">
+        <item>Pasajero</item>
+        <item>Administrador</item>
+    </string-array>
+
+    <string-array name="Genre">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_menu_adm">MenuActivityAdm</string>
+    <string name="title_home_adm">Inicio</string>
+    <string name="title_travel_adm">Viajes</string>
+    <string name="title_book_adm">Reserva</string>
+    <string name="title_profile_adm">Perfil</string>
+    <string name="ValueRetorn">Retorn</string>
+    <string name="ValueCreate">Crear</string>
+
 </resources>
