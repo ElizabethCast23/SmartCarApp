@@ -5,4 +5,15 @@
     android:id="@+id/constraintLayoutBuscarPaquete"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragmentUser.UserBuscarPaquetes"/>
+    tools:context=".fragmentUser.UserBuscarPaquetes">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="205dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
