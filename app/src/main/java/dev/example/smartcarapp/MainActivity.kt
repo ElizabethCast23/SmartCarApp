@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
 //        }
 
 
+//        Funcional
+
         btnSend.setOnClickListener {
             val PassUser = "1"
             val DniUser = "1"
