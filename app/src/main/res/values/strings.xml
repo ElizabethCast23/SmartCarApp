@@ -22,6 +22,7 @@
     <string name="ValueEditarDashboardUser">Editar</string>
     <string name="ValueCerrarDashboarUser">Cerrar Sesión</string>
     <string name="ValueBuscarPaquete">Buscar Paquete</string>
+    <string name="ValueFechaReserva">Fecha</string>
 
     <string name="ValueRegisterAdm">Registro</string>
     <string name="ValueReportAdm">Reporte</string>
@@ -59,5 +60,6 @@
     <string name="title_profile_adm">Perfil</string>
     <string name="ValueRetorn">Retorn</string>
     <string name="ValueCreate">Crear</string>
+    <string name="Guardar">sdadsa</string>
 
 </resources>
