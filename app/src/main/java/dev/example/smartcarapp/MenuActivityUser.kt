@@ -21,7 +21,7 @@ class MenuActivityUser : AppCompatActivity() {
         setContentView(binding.root)
 
         val navView: BottomNavigationView = binding.navView
-        val spnType = findViewById<Spinner>(R.id.spnType)
+
 
         val navController = findNavController(R.id.nav_host_fragment_activity_menu)
 
