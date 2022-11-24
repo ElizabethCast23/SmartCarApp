@@ -9,7 +9,7 @@
 <!--    Camibar icono-->
     <item
         android:id="@+id/NavTravel"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@android:drawable/ic_dialog_map"
         android:title="@string/title_travel" />
 
     <item
