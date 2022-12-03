@@ -7,9 +7,9 @@
         android:title="@string/title_home_adm" />
 
     <item
-        android:id="@+id/NavAdmTravel"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_travel_adm" />
+        android:id="@+id/NavTravel"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/title_travel" />
 
     <item
         android:id="@+id/NavBookAdm"
