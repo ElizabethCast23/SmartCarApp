@@ -6,8 +6,12 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
+import android.widget.TextView
+import com.google.firebase.firestore.FirebaseFirestore
 
 class registro_cliente : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro_user)
@@ -15,6 +19,7 @@ class registro_cliente : AppCompatActivity() {
         val btnRegister: Button = findViewById(R.id.btnRegister)
         val spnGender = findViewById<Spinner>(R.id.spnGender)
         val listGender = resources.getStringArray(R.array.Genre)
+        val db = FirebaseFirestore.getInstance()
 
         val adapt = ArrayAdapter(this,android.R.layout.simple_spinner_item,listGender)
         spnGender.adapter = adapt

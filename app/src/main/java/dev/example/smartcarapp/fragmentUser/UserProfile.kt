@@ -14,8 +14,6 @@ import dev.example.smartcarapp.R
 
 
 class UserProfile : Fragment() {
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -53,10 +51,6 @@ class UserProfile : Fragment() {
                             tvEmail.text = dc.document.data["correo"].toString()
 
                         }
-                        /*DocumentChange.Type.REMOVED -> Log.d(
-                            "Firebase",
-                            "Removed Data: " + dc.document.data
-                        )*/
                         else ->{
                             Log.e("Firebase", "Error in Document")
                         }
