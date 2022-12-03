@@ -1,5 +1,6 @@
 package dev.example.smartcarapp.fragmentUser
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -10,6 +11,7 @@ import android.widget.Button
 import android.widget.TextView
 import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.FirebaseFirestore
+import dev.example.smartcarapp.MainActivity
 import dev.example.smartcarapp.R
 
 
@@ -58,7 +60,7 @@ class UserProfile : Fragment() {
                 }
             }
 
-        val btnPreviewView: Button = view.findViewById(R.id.btnGuardar_dashboard_user)
+        val btnPreviewView: Button = view.findViewById(R.id.btnGuardar_dash_user)
         val btnPreviewView2: Button = view.findViewById(R.id.btnCerrar_dashboard_user)
 
         btnPreviewView.setOnClickListener {
@@ -68,18 +70,24 @@ class UserProfile : Fragment() {
         }
 
         btnPreviewView2.setOnClickListener {
-            val fragment = dashboard()
-            val transaction = fragmentManager?.beginTransaction()
+//            finish()
+            onDestroyView()
+
+//            Intent revista = new Intent(getActivity(), MainActivity.class)
+//            startActivity()
+
+//            val fragment = dashboard()
+//            val transaction = fragmentManager?.beginTransaction()
             //this.logout()
         }
         return view
     }
-/*
-    private fun logout() {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
 
-    }
-*/
+//    private fun logout() {
+//        val intent = Intent(this, MainActivity::class.java)
+//        startActivity(intent)
+//
+//    }
+
 
 }

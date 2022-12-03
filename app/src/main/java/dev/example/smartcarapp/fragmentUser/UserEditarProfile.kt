@@ -1,17 +1,14 @@
 package dev.example.smartcarapp.fragmentUser
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
-import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.FirebaseFirestore
 import dev.example.smartcarapp.R
-import dev.example.smartcarapp.model.usuario
 
 
 class UserEditarProfile : Fragment() {
@@ -30,7 +27,7 @@ class UserEditarProfile : Fragment() {
         val txtDNI: EditText = view.findViewById(R.id.etDniDashboard_User_editar_profile)
         val txtTelefono: EditText = view.findViewById(R.id.etTelefonoDashboard_User_editar_profile)
         val txtEmail: EditText = view.findViewById(R.id.etEmailDashboard_User_editar_profile)
-        val btnSave: Button = view.findViewById(R.id.btnGuardar_dashboard_user)
+        val btnSave: Button = view.findViewById(R.id.btnGuardar_dash_user)
         val db = FirebaseFirestore.getInstance()
 
         /*db.collection("usuario")

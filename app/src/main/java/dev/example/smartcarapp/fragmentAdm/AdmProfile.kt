@@ -7,12 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.EditText
 import android.widget.TextView
 import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.FirebaseFirestore
 import dev.example.smartcarapp.R
-import dev.example.smartcarapp.fragmentUser.UserEditarProfile
 import dev.example.smartcarapp.fragmentUser.dashboard
 
 
@@ -62,7 +60,7 @@ class AdmProfile : Fragment() {
                 }
             }
 
-        val btnPreviewView: Button = view.findViewById(R.id.btnGuardar_dashboard_user)
+        val btnPreviewView: Button = view.findViewById(R.id.btnGuardar_dash_user)
         val btnPreviewView2: Button = view.findViewById(R.id.btnCerrar_dashboard_user)
 
       /*  btnPreviewView.setOnClickListener {
