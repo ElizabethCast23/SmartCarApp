@@ -3,6 +3,7 @@ package dev.example.smartcarapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.*
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -27,14 +28,14 @@ class MainActivity : AppCompatActivity() {
 //        Funcional
 
         btnSend.setOnClickListener {
-           val PassUser = "1"
-            val DniUser = "1"
-            val PassAdm = "2"
-            val DniAdm = "2"
+//           val PassUser = "1"
+//            val DniUser = "1"
+//            val PassAdm = "2"
+//            val DniAdm = "2"
 
-            /*variables para la base de datos
+//            variables para la base de datos
             val dni = e1.text.toString()
-            val password =p2.text.toString()*/
+            val password =p2.text.toString()
 
             if(e1.text.toString().length== 0){
                 Toast.makeText(applicationContext,"No dejar casilla vacia",Toast.LENGTH_LONG).show()
@@ -42,8 +43,9 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "No dejar casilla vacia", Toast.LENGTH_LONG)
                     .show()
             }
-            /*var document = dbFirestore.collection("usuario").whereEqualTo("documento",dni).whereEqualTo("contraseña",password).get()
+           var document = dbFirestore.collection("usuario").whereEqualTo("documento",dni).whereEqualTo("confi_contra",password).get()
                 .addOnSuccessListener { documents->
+                    Log.d("error_firebase", "es $documents")
                     if (documents.isEmpty){
                         Toast.makeText(applicationContext,"Invalid email or password",Toast.LENGTH_LONG).show()
                     }else{
@@ -53,16 +55,16 @@ class MainActivity : AppCompatActivity() {
                         startActivity(intent)
                     }
                 }
-*/
 
 
-            else if(p2.text.toString() == PassUser.toString() && e1.text.toString() == DniUser.toString()){
-                this.SendLoginUser(e1.text.toString(),p2.text.toString())
-            }else if(p2.text.toString() == PassAdm.toString() && e1.text.toString() == DniAdm.toString()){
-                this.SendLoginAdm(e1.text.toString(),p2.text.toString())
-            }else{
-                Toast.makeText(applicationContext,"Invalid email or password",Toast.LENGTH_LONG).show()
-            }
+
+//            else if(p2.text.toString() == PassUser.toString() && e1.text.toString() == DniUser.toString()){
+//                this.SendLoginUser(e1.text.toString(),p2.text.toString())
+//            }else if(p2.text.toString() == PassAdm.toString() && e1.text.toString() == DniAdm.toString()){
+//                this.SendLoginAdm(e1.text.toString(),p2.text.toString())
+//            }else{
+//                Toast.makeText(applicationContext,"Invalid email or password",Toast.LENGTH_LONG).show()
+//            }
         }
 
 
