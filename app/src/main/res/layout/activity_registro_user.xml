@@ -16,7 +16,7 @@
         android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/textView22"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/etDni"
+        app:layout_constraintStart_toEndOf="@+id/etnombre"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
@@ -32,7 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etName2" />
 
     <EditText
-        android:id="@+id/etPasswordUser"
+        android:id="@+id/etApell"
         android:layout_width="339dp"
         android:layout_height="0dp"
         android:layout_marginEnd="25dp"
@@ -50,8 +50,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
         android:text="Contraseña"
-        app:layout_constraintBottom_toTopOf="@+id/etPasswordUser"
-        app:layout_constraintStart_toStartOf="@+id/etPasswordUser"
+        app:layout_constraintBottom_toTopOf="@+id/etApell"
+        app:layout_constraintStart_toStartOf="@+id/etApell"
         app:layout_constraintTop_toBottomOf="@+id/etName5" />
 
     <Button
@@ -63,7 +63,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPasswordUser" />
+        app:layout_constraintTop_toBottomOf="@+id/etApell" />
 
     <TextView
         android:id="@+id/textView20"
@@ -74,7 +74,7 @@
         app:layout_constraintStart_toStartOf="@+id/etPhone" />
 
     <EditText
-        android:id="@+id/etDni"
+        android:id="@+id/etnombre"
         android:layout_width="0dp"
         android:layout_height="51dp"
         android:layout_marginStart="48dp"
@@ -137,7 +137,7 @@
         android:inputType="textPersonName"
         android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/textView25"
-        app:layout_constraintEnd_toEndOf="@+id/etPasswordUser"
+        app:layout_constraintEnd_toEndOf="@+id/etApell"
         app:layout_constraintStart_toStartOf="@+id/textView22"
         app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
@@ -148,7 +148,7 @@
         android:layout_marginBottom="7dp"
         android:text="Email"
         app:layout_constraintBottom_toTopOf="@+id/etName5"
-        app:layout_constraintStart_toStartOf="@+id/etDni"
+        app:layout_constraintStart_toStartOf="@+id/etnombre"
         app:layout_constraintTop_toBottomOf="@+id/etPhone" />
 
     <TextView

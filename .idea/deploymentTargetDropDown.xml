@@ -7,11 +7,11 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\Elizabeth\.android\avd\Copy_of_Copy_of_SmartCard.avd" />
+            <value value="C:\Users\Elizabeth\.android\avd\Bas.avd" />
           </Key>
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-10-22T16:03:23.804424600Z" />
+    <timeTargetWasSelectedWithDropDown value="2022-12-03T13:45:19.864962500Z" />
   </component>
 </project>

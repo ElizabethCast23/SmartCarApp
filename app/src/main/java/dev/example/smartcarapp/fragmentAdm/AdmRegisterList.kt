@@ -48,11 +48,11 @@ class AdmRegisterList : Fragment() {
         }
 
 
-//        btnRegUser.setOnClickListener {
-//            val fragment = AdmRegisterPackage()
-//            val transaction = fragmentManager?.beginTransaction()
-//            transaction?.replace(R.id.nav_host_fragment_activity_menu_adm,fragment)?.commit()
-//        }
+        btnRegUser.setOnClickListener {
+            val fragment = AdmRegisterTipe()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.nav_host_fragment_activity_menu_adm,fragment)?.commit()
+        }
 
 
         return view
