@@ -43,11 +43,14 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "No dejar casilla vacia", Toast.LENGTH_LONG)
                     .show()
             }
-           var document = dbFirestore.collection("usuario").whereEqualTo("documento",dni).whereEqualTo("confi_contra",password).get()
+
+
+           var document = dbFirestore.collection("usuario").whereEqualTo("documento",dni)
+               .whereEqualTo("confi_contra",password).get()
                 .addOnSuccessListener { documents->
                     Log.d("error_firebase", "es $documents")
                     if (documents.isEmpty){
-                        Toast.makeText(applicationContext,"Invalid email or password",Toast.LENGTH_LONG).show()
+                        Toast.makeText(applicationContext,"Invalido correo o contraseña de usuario",Toast.LENGTH_LONG).show()
                     }else{
                         Toast.makeText(this,"ACCESO CONCEDIDO", Toast.LENGTH_LONG).show()
                         val intent = Intent(this,MenuActivityUser::class.java)
@@ -55,6 +58,21 @@ class MainActivity : AppCompatActivity() {
                         startActivity(intent)
                     }
                 }
+
+            var documentAdm = dbFirestore.collection("administrador").whereEqualTo("documento",dni)
+                .whereEqualTo("confi_contra",password).get()
+                .addOnSuccessListener { documentAdms->
+                    Log.d("error_firebase", "es $documentAdms")
+                    if (documentAdms.isEmpty){
+                        Toast.makeText(applicationContext,"Invalido correo o contraseña de administrador",Toast.LENGTH_LONG).show()
+                    }else{
+                        Toast.makeText(this,"ACCESO CONCEDIDO", Toast.LENGTH_LONG).show()
+                        val intent = Intent(this,MenuActivityAdm::class.java)
+                        intent.putExtra("documento", dni)
+                        startActivity(intent)
+                    }
+                }
+
 
 
 

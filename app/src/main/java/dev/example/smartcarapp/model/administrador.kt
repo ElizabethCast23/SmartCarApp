@@ -1,6 +1,6 @@
 package dev.example.smartcarapp.model
 
-data class usuario(
+data class administrador(
     val apellido: String="",
     val nombre: String="",
     val contraseña: String="",
