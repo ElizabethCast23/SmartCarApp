@@ -1,9 +1,7 @@
 package dev.example.smartcarapp
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.*
 import com.google.firebase.firestore.FirebaseFirestore
 import dev.example.smartcarapp.model.usuario
@@ -17,21 +15,16 @@ class registro_cliente : AppCompatActivity() {
         setContentView(R.layout.activity_registro_user)
 
         val btnRegister: Button = findViewById(R.id.btnRegister)
-//        val spnGender = findViewById<Spinner>(R.id.spnGender)
-//        val listGender = resources.getStringArray(R.array.Genre)
 
-//        Revisar boton o bug de la app -> copiar en el otro lado de adm
         val txtName: EditText = findViewById(R.id.etName)
         val txtApell: EditText = findViewById(R.id.etName2)
-        val txtDNI: EditText = findViewById(R.id.etDni)
+        val txtDNI: EditText = findViewById(R.id.etnombre)
         val txtTel: EditText = findViewById(R.id.etPhone)
         val txtEma: EditText = findViewById(R.id.etName5)
-        val txtContra: EditText = findViewById(R.id.etPasswordUser)
+        val txtContra: EditText = findViewById(R.id.etApell)
 
         val db = FirebaseFirestore.getInstance()
 
-//        val adapt = ArrayAdapter(this,android.R.layout.simple_spinner_item,listGender)
-//        spnGender.adapter = adapt
 
         btnRegister.setOnClickListener {
             /*this.SendRegisterUser()*/
@@ -39,10 +32,11 @@ class registro_cliente : AppCompatActivity() {
             val apellido = txtApell.text.toString()
             val dNI = txtDNI.text.toString()
             val tel = txtTel.text.toString()
-            val ema = txtEma.text.toString()
+            val email = txtEma.text.toString()
             val contra = txtContra.text.toString()
 
-            val nuevoNombre = usuario(nombre,apellido,dNI,tel,ema,contra)
+
+            val nuevoNombre = usuario(apellido,contra,contra,email,dNI,"",nombre,tel)
             /*val nuevoApellido = txtApell.text.toString()
             val nuevoDNI = txtDNI.text.toString()
             val nuevoTel = txtTel.text.toString()
@@ -54,11 +48,15 @@ class registro_cliente : AppCompatActivity() {
                 .document(id.toString())
                 .set(nuevoNombre)
                 .addOnSuccessListener {
-
+                    correcto()
                 }
 
         }
 
+    }
+
+    private fun correcto(){
+        Toast.makeText(applicationContext,"Correct",Toast.LENGTH_LONG).show()
     }
 /*
     private  fun SendRegisterUser(){
