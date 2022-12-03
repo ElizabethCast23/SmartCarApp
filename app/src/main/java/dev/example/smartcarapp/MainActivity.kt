@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
         btnSend.setOnClickListener {
 //           val PassUser = "1"
 //            val DniUser = "1"
-//            val PassAdm = "2"
-//            val DniAdm = "2"
+            val PassAdm = "2"
+            val DniAdm = "2"
 
 //            variables para la base de datos
             val dni = e1.text.toString()
@@ -59,30 +59,31 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
 
-            var documentAdm = dbFirestore.collection("administrador").whereEqualTo("documento",dni)
-                .whereEqualTo("confi_contra",password).get()
-                .addOnSuccessListener { documentAdms->
-                    Log.d("error_firebase", "es $documentAdms")
-                    if (documentAdms.isEmpty){
-                        Toast.makeText(applicationContext,"Invalido correo o contraseña de administrador",Toast.LENGTH_LONG).show()
-                    }else{
-                        Toast.makeText(this,"ACCESO CONCEDIDO", Toast.LENGTH_LONG).show()
-                        val intent = Intent(this,MenuActivityAdm::class.java)
-                        intent.putExtra("documento", dni)
-                        startActivity(intent)
-                    }
-                }
+//            var documentAdm = dbFirestore.collection("administrador").whereEqualTo("documento",dni)
+//                .whereEqualTo("confi_contra",password).get()
+//                .addOnSuccessListener { documentAdms->
+//                    Log.d("error_firebase", "es $documentAdms")
+//                    if (documentAdms.isEmpty){
+//                        Toast.makeText(applicationContext,"Invalido correo o contraseña de administrador",Toast.LENGTH_LONG).show()
+//                    }else{
+//                        Toast.makeText(this,"ACCESO CONCEDIDO", Toast.LENGTH_LONG).show()
+//                        val intent = Intent(this,MenuActivityAdm::class.java)
+//                        intent.putExtra("documento", dni)
+//                        startActivity(intent)
+//                    }
+//                }
 
 
 
 
 //            else if(p2.text.toString() == PassUser.toString() && e1.text.toString() == DniUser.toString()){
 //                this.SendLoginUser(e1.text.toString(),p2.text.toString())
-//            }else if(p2.text.toString() == PassAdm.toString() && e1.text.toString() == DniAdm.toString()){
-//                this.SendLoginAdm(e1.text.toString(),p2.text.toString())
+//            }else
+                if(p2.text.toString() == PassAdm.toString() && e1.text.toString() == DniAdm.toString()){
+                this.SendLoginAdm(e1.text.toString(),p2.text.toString())
 //            }else{
 //                Toast.makeText(applicationContext,"Invalid email or password",Toast.LENGTH_LONG).show()
-//            }
+            }
         }
 
 
