@@ -17,9 +17,10 @@ class registro_cliente : AppCompatActivity() {
         setContentView(R.layout.activity_registro_user)
 
         val btnRegister: Button = findViewById(R.id.btnRegister)
-        val spnGender = findViewById<Spinner>(R.id.spnGender)
-        val listGender = resources.getStringArray(R.array.Genre)
+//        val spnGender = findViewById<Spinner>(R.id.spnGender)
+//        val listGender = resources.getStringArray(R.array.Genre)
 
+//        Revisar boton o bug de la app -> copiar en el otro lado de adm
         val txtName: EditText = findViewById(R.id.etName)
         val txtApell: EditText = findViewById(R.id.etName2)
         val txtDNI: EditText = findViewById(R.id.etDni)
@@ -29,8 +30,8 @@ class registro_cliente : AppCompatActivity() {
 
         val db = FirebaseFirestore.getInstance()
 
-        val adapt = ArrayAdapter(this,android.R.layout.simple_spinner_item,listGender)
-        spnGender.adapter = adapt
+//        val adapt = ArrayAdapter(this,android.R.layout.simple_spinner_item,listGender)
+//        spnGender.adapter = adapt
 
         btnRegister.setOnClickListener {
             /*this.SendRegisterUser()*/
