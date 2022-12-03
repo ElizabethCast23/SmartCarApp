@@ -143,7 +143,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etTelefonoDashboard_User_editar_profile" />
 
     <Button
-        android:id="@+id/btnGuardar_dashboard_user"
+        android:id="@+id/btnGuardar_dash_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
